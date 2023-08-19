@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Ubuntu:wght@300&display=swap');
+/* common code  */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f0f0f;
+}
+
+/* common code  */
+
+/* header start  */
+header{
+    background-color: #F0FFF0;
+    padding: 15px 0;
+}
+
+.c-nav{}
+
+.logo{}
+
+.menu{}
+
+.menu ul li a{
+    color: #0f0f0f !important;
+    padding: 0 25px !important;
+
+}
+
+.menu ul li a:hover{
+    color: #FD511A !important;
+}
+
+.b-cm{
+    color: white;
+    background-color: #21B573;
+    border-radius: 33px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 12px 28px;
+
+}
+
+.b-cm:hover{
+    color: #ffffff;
+    background-color: #FD511A;
+
+}
+
+.b-cm:active{
+    color: #ffffff !important;
+    background-color: #FD511A !important;
+
+}
+
+.b-h{
+    margin-left: 15px;
+}
+/* header end  */
+
+/* banner strat  */
+.banner{
+    background-color:#F0FFF0;
+    padding-bottom: 50px;
+}
+.b_p1{
+    color: #FD511A;
+    margin: 0;
+}
+
+.b_h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 10px 0 19px 0;
+    padding:0 105px 0 0;
+}
+
+.b_h1 span{
+    color: #21B573;
+}
+
+.b_p2{
+    line-height: 36px;
+    margin: 0;
+    margin-bottom: 14px;
+    padding:0 120px 0 0;
+
+}
+
+.b_btn{
+    width: 153px;
+    height: 43px;
+
+}
+/* banner end  */
